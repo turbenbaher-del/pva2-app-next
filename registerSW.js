@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pva2-app-next/sw.js', { scope: '/pva2-app-next/' })})}
